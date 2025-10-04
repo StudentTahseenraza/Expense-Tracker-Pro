@@ -21,7 +21,7 @@ const corsOptions = {
   origin: [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
-    'https://expense-tracker-pro-seven.vercel.app' // frontend deployed URL
+    'https://expense-tracker-pro-green.vercel.app' // frontend deployed URL
   ],
   credentials: true,
   optionsSuccessStatus: 200
