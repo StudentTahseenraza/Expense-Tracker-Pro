@@ -4,9 +4,10 @@ import Cookies from 'js-cookie';
 import { toast } from 'react-toastify';
 
 const API = axios.create({
-  baseURL: '/api',
-  timeout: 10000,
+  baseURL: import.meta.env.VITE_API_URL || '/api', // fallback to local proxy
+  timeout: 10000
 });
+
 
 // Request interceptor
 API.interceptors.request.use(
