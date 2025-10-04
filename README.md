@@ -1,6 +1,9 @@
 Expense Tracker Pro 💰
 A modern, full-stack personal expense tracking application built with the MERN stack (MongoDB, Express.js, React, Node.js). Features beautiful analytics, secure authentication, and a stunning glass-morphism UI with smooth animations.
 --------------------------------------------------------------------------------------------------
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d1df3e4c-4dd7-4912-a990-8e4c790718e8" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c48d2f07-b188-4340-ae50-32c88210b355" />
+
 
 
 🚀 Features
@@ -357,3 +360,4 @@ CLIENT_URL=https://your-frontend-domain.com
 Built with ❤️ using the MERN Stack
 
 </div>
+
