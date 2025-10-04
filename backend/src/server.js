@@ -18,10 +18,15 @@ connectDB();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://expense-tracker-pro-seven.vercel.app' // frontend deployed URL
+  ],
   credentials: true,
   optionsSuccessStatus: 200
 };
+
 
 // Middleware
 app.use(helmet());
